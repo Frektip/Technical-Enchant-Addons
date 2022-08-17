@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"addon:teplus/enchanting/set_lore_book", "required":false}
+    ]
+}

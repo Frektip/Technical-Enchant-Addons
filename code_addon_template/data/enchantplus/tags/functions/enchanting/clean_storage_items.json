@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"addon:teplus/enchanting/clean_storage/items", "required":false}
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"addon:teplus/enchanting/item_type/shield", "required":false}
+    ]
+}
