@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"addon:teplus/has_enchants/chestplate", "required":false}
+    ]
+}
