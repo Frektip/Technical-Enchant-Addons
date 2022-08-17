@@ -1,0 +1,54 @@
+====================== TE+ ADDON TEMPLATE ======================
+For this complement to work you MUST have also installed TE+ original datapack
+=====================================================================
+
+1.- [What you can change]
+You can't change the name or the location of any of the files provided in:
+- enchantplus
+- bowcross
+- technical_anvil
+- load
+
+What you need to do in those files is to go to "tags/functions/[file]" and change  ONLY the name "addon" to
+to whatever your namespace want to be. 
+
+If you do that, you can change the name of the main folder called "addon" to your namespace
+
+You can also change the pack.png if you want
+You can also change the description from the pac.kmcmeta file
+
+##########################################################
+2.- [Adding custom enchantments]
+
+I recommend to create a function that will give you a custom enchanted book for your addon in: "addon/functions/give"
+This will create a book that will help you to test it with the Technical Anvil.
+
+Then you need to go to "addon/functions/teplus/[folders]" you need to check each folder and it's files, be
+careful and read the instructions correctly. In this way, you make sure you can obtain your enchantments from
+the enchanting system from TE+, make your enchantment be compatible through the technical anvil and be
+compatible with TE+ disenchant system.
+
+(You need to do an extra step in caseyou want to create an enchantment for the bow or crossbow)
+Go to: "addon/functions/bowcross/[files and folders]", check every file and follow the instructions.
+This is the system that TE+ uses (made by Splatus) and prevents this type of enchantments to be buggy.
+
+----------------------------------------------------------
+
+##########################################################
+3.- [After you modify TE+ related files]
+
+You can now add your enchantment functionallity into your datapack. The previous steps were to make your
+enchantment compatible with most of TE+ features. You don't need to use all the files provided in this
+template, just make sure you don't miss anything.
+
+I highly recommend using Minecraft's log in case you're having any problems; or check out the video
+tutorial series: [link soon!!]
+
+
+Hope this is helpful, if you need help or have questions, message me through discord: Frektip#4587 
+
+
+
+
+
+
