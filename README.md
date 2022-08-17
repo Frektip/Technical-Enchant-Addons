@@ -10,6 +10,7 @@ Addons are other datpacks that add more enchantments with TE+ environment.Meanin
 
 # Download-Installation
 
-When downloading the file, you **MUST** extract the .zip file. Once you do that you will find "code" folder, which includes all the code to start creating your addons
+When downloading this file you can read the 2 .txt files included to begin with your addon creation. The source code is located in the "data" folder. 
+This .zip file is a datapack, so once you download it, you can extract it and modify it acording to your needs.
 
 You can get more details about addons and their functionallity in the [wiki](https://github.com/Frektip/Technical-Enchant-Addons/wiki)
