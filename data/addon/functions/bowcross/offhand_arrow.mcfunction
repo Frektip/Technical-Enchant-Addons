@@ -5,9 +5,7 @@
 #    enchantment level in that specific scoreboard.
 # - You need to follow this format:
 
-execute unless predicate enchbowcross:mainhand_normal run execute store result score @s your.scoreboard.name run data get entity @s Inventory[{Slot:-106b}].tag.CustomEnchantments[{id:"Enchantment"}].lvl
-
-# - You don't need to remove the predicate
+execute store result score @s your.scoreboard.name run data get entity @s Inventory[{Slot:-106b}].tag.CustomEnchantments[{id:"Enchantment"}].lvl
 
 # Don't forget to do this command for each bow/crossbow enchantment that you add
 ##====================================================================================##
