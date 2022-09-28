@@ -44,7 +44,13 @@ tag @s remove ComError
 
 #---------GET LEVELS OF BOTH SECTIONS---------#
 execute store result score @s TCHA.Section1 run data get storage teplus:tech_anvil.ui CurrentItems[{Slot:2b}].tag.CustomEnchantments[{id:"Enchantment"}].lvl
-execute store result score @s TCHA.Section2 run data get storage teplus:tech_anvil.ui CurrentItems[{Slot:6b}].tag.StoredCustomEnchantments[{id:"Enchantment"}].lvl
+
+#If it has the tag "TCHA.ItwIt" means that the other item is the same
+#  one as the one in Slot:2b.
+# - !TCHA.ItwIt = book nbt = StoredCustomEnchantments
+# - TCHA.ItwIt = item nbt = CustomEnchantments
+execute store result score @s[tag=!TCHA.ItwIt] TCHA.Section2 run data get storage teplus:tech_anvil.ui CurrentItems[{Slot:6b}].tag.StoredCustomEnchantments[{id:"Enchantment"}].lvl
+execute store result score @s[tag=TCHA.ItwIt] TCHA.Section2 run data get storage teplus:tech_anvil.ui CurrentItems[{Slot:6b}].tag.CustomEnchantments[{id:"Enchantment"}].lvl
 
 #-------INCREASE LEVEL IF THEY MATCH-------#
 #Section1 is the limit for this enchatment
