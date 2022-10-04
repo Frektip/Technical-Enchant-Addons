@@ -33,7 +33,8 @@ execute if score #addon_enchant teplus.data matches 4 run tag @s add tepad.item_
 # - teplus.item_veinmin = vein-miner
 # - teplus.item_excav = excavator
 # - teplus.item_chopp = chopping
-# - teplus.item_chopp = timb
+# - teplus.item_timb = timber
+# - teplus.item_scyt = scyther
 
 # Using this tags can be helpful in case you want to make your addon
 # enchantment compatible with TE+ enchantments
