@@ -7,5 +7,5 @@
 #   TE+ original datapack)
 #
 # FOLLOW THIS FORMAT:
-execute if data entity @s {Items:[{Slot:10b,tag:{CustomEnchantments:[{id:"Enchantment"}]}}]} run data modify entity @s Items[{Slot:10b}].tag.CustomArrow set value 1
+execute if data entity @s {Items:[{Slot:10b,tag:{CustomEnchantments:[{id:"EnchantmentID"}]}}]} run data modify entity @s Items[{Slot:10b}].tag.CustomArrow set value 1
 ##==================================================================================##

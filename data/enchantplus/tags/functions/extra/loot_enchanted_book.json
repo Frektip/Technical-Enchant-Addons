@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"addon:teplus/extensions/loot_book_generate", "required":false}
+    ]
+}

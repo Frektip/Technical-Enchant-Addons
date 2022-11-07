@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"addon:teplus/extensions/insert_in_admin_box", "required":false}
+    ]
+}
