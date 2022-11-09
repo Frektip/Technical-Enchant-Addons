@@ -15,10 +15,6 @@ However, if you find bugs that are related to TE+ Renewed original datapack, be 
 will check it out.
 =======================================================================================
 
-You can contact me through discord: Frektip#4587 
-
-
-
-
+You can contact me through discord: Frektip#4587 or join the discrod for help: https://discord.gg/MksvFbGPvR
 
 

@@ -5,7 +5,7 @@ For this complement to work you MUST have also installed TE+ original datapack
 1.- [What you can change]
 You can't change the name or the location of any of the files provided in:
 - enchantplus
-- bowcross
+- enchbowcross
 - technical_anvil
 - load
 
@@ -20,6 +20,12 @@ You can also change the description from the pac.kmcmeta file
 ##########################################################
 2.- [Adding custom enchantments]
 
+First of all you will need to have some basic knowledge about minecraft functions, predicates,
+item modifiers, loot-tables and advancements. Also some kwnowledge about nbt data manipulation
+
+THE MOST IMPORTANT PART IS AT: "addon/functions/register", it is the base your enchantment or 
+ curse addon to get recognized by TE+ in first place.
+
 I recommend to create a function that will give you a custom enchanted book for your addon in: "addon/functions/give"
 This will create a book that will help you to test it with the Technical Anvil.
 
@@ -28,9 +34,9 @@ careful and read the instructions correctly. In this way, you make sure you can 
 the enchanting system from TE+, make your enchantment be compatible through the technical anvil and be
 compatible with TE+ disenchant system.
 
-(You need to do an extra step in caseyou want to create an enchantment for the bow or crossbow)
+(You need to do an extra step in case you want to create an enchantment for the bow or crossbow)
 Go to: "addon/functions/bowcross/[files and folders]", check every file and follow the instructions.
-This is the system that TE+ uses (made by Splatus) and prevents this type of enchantments to be buggy.
+This is the system that TE+ uses (made by Splatus and modified by me a bit) and prevents this type of enchantments to be buggy.
 
 ----------------------------------------------------------
 
@@ -41,14 +47,9 @@ You can now add your enchantment functionallity into your datapack. The previous
 enchantment compatible with most of TE+ features. You don't need to use all the files provided in this
 template, just make sure you don't miss anything.
 
-I highly recommend using Minecraft's log in case you're having any problems; or check out the video
-tutorial series: [link soon!!]
+I highly recommend using Minecraft's log in case you're having any problems; check out the video
+tutorial series: [link soon!!]; or check out the Wiki: https://github.com/Frektip/Technical-Enchant-Addons/wiki
 
 
 Hope this is helpful, if you need help or have questions, message me through discord: Frektip#4587 
-
-
-
-
-
 
